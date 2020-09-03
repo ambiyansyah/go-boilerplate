@@ -10,6 +10,9 @@ import (
 	"go.uber.org/zap/zapcore"
 )
 
+// Logger ...
+type Logger *zap.Logger
+
 var (
 	// Log is global logger
 	Log *zap.Logger
